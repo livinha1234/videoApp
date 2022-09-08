@@ -1,20 +1,16 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
+    <ion-title class="letra">
+      Filme
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-item routerLink="/jumanji">
+    <ion-thumbnail slot="start">
+      <img src="https://www.themoviedb.org/t/p/w300_and_h450_bestv2/uT1pHr90KqQGMucv7YgyPdxhMiC.jpg" />
+    </ion-thumbnail>
+    <ion-label class="letra">Jumanji: Bem-Vindo à Selva (2017)</ion-label>
+  </ion-item>
 </ion-content>
